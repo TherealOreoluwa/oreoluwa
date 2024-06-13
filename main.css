@@ -1,0 +1,637 @@
+ body{
+    background-color: #F1FAFF;
+    padding: 0;
+    margin: 0;
+}
+    #top{
+        text-align: center;
+        margin-top: -8px;
+    }
+    .name{
+        text-align: center;
+    }
+    /* .name h1{ //First style to adding a  dynamic name to a page
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 70px;
+    }
+    .name span{
+        color: red;
+    } */
+    /* .but{
+        background-color: black;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: -100px;
+    } */
+    /* li{
+        color: #F1FAFF;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+    } */
+    .mid{
+        text-align: center;
+        margin-top: -16px;
+    }
+    .hd1{
+        border-top: 1px solid lightgrey;
+        margin-top: 25px;
+    }
+    nav{
+        background-color: black;
+        margin-top: -15px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color:#F1FAFF;
+        font-size: 18px;
+    }
+    nav ul li a:hover{
+        color: red;
+    }
+    nav ul li{
+        display: inline;
+        margin: 10px;
+        margin-left: 20px;
+    }
+    nav ul{
+        padding: 20px;
+        margin-left: 50px;
+    }
+    
+    span{
+        color: red;
+    }
+
+    .container{
+        position: absolute;
+        left: 94%;
+        top: 44%;
+        transform: translate(-50%, -40%);
+        padding: 10px;
+    }
+    
+    input{
+        height: 60px;
+        width: 0px;
+        outline: none;
+        padding: 0 20px;
+        color: black;
+        font-size: 20px;
+        box-sizing: border-box;
+        border: 1px solid red;
+        border-radius: 50px;
+        transition: all .9s ease;
+    }
+    
+    ::placeholder{
+        color: gray;
+    }
+    
+    .btn{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background: red;
+        line-height: 20px;
+        height: 70px;
+        width: 60px;
+        text-align: center;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    
+    .btn i{
+        font-size: 25px;
+        line-height: 65px;
+        color: white;
+        transition: all .7s ease;
+    }
+    
+    .container:hover input{
+        width: 250px;
+    }
+    .container:hover i{
+        transform: rotate(-350deg);
+}
+
+
+.predator{
+    display: flex;
+    justify-content: space-between;
+}
+.life{
+background-image: url(images/life.jpg);
+background-repeat: no-repeat;
+background-size: contain;
+position: relative;
+width: 330px;
+height: 430px;
+margin-top: 20px;
+margin-left: 30px;
+}
+
+.border{
+    width: 350px;
+    height: 470px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border: 1px solid lightgray;
+}
+.cbn{
+    background-image: url(images/cbn.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 2%;
+    bottom: 0;
+    position: relative;
+    width: 600px;
+    height: 85vh;
+}
+
+.cbn .overlay{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 99vh;
+    position: absolute;
+}
+/* .cbn .content :hover{
+    transform: scale(1.5);
+} */
+.box{
+    max-width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #F1FAFF;
+    background: linear-gradient(rgba(255, 255, 255, 0), black,black);   
+}
+
+.cbn .content b{
+    color: #f1faff;
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translate(0%, 40%); 
+    text-decoration: none;
+}
+.cbn .content b:hover{
+    text-decoration: underline;
+    color: red;
+}
+.content .p a{
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+    top: 60%;
+    left: 5%;
+    transform: translate(0%, 40%);
+    position: absolute;
+}
+.content .p a:hover{
+    color: lightgray;
+}
+
+.drinknews{
+    display: vertical;
+    justify-content: center;
+    margin-left: 640px;
+    margin-top: -525px;
+}
+.drink{
+    background-image: url(images/drink.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0;
+    bottom: 0px;
+    position: relative;
+    width: 340px;
+    height: 300px;
+    top: 50px;
+}
+.drink .overlay1{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 72%;
+    width: 56vh;
+    position: absolute;
+    top: 0px;
+    bottom: -100px;
+}
+.drink .entries{
+    color: #f1faff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    transform: translate(0%, 40%); 
+    text-decoration: none;
+}
+.entries .p1{
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+    top: -60%;
+    left: 5%;
+    transform: translate(-20%, -50%);
+    position: absolute
+}
+.drink .txt{
+    max-width: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #F1FAFF;
+}
+.news{
+    background-image: url(images/news.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0%;
+    bottom: 20px;
+    position: relative;
+    width: 340px;
+    height: 300px;
+}
+.news .overlay2{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 66%;
+    width: 56vh;
+    position: absolute;
+    top: 0px;
+    bottom: -100px;
+}
+.news .entry{
+    color: #f1faff;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    transform: translate(0%, 40%); 
+    text-decoration: none;
+}
+.news .p2{
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+    top: -50%;
+    left: 8%;
+    transform: translate(-20%, -50%);
+    position: absolute
+}
+.news .wrd{
+    max-width: 450px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #F1FAFF;
+}
+
+.text1{
+    margin: -143px 0px 0px 48px;
+}
+    /* .overlay1 .h6 .c{
+        background-color: red;
+        color: aliceblue;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+        text-decoration: none;
+    } */
+
+.hd2{
+margin-top: -50px;
+border-top: 1px solid lightgray;}  
+h3{
+    text-align: center;
+    position: relative;
+}
+.hd3{
+    margin-top: 80px;
+    border-top: 1px solid lightgrey;
+    margin-left: 13.5%;
+    margin-right: 11%;
+}
+
+.st1{
+    background-image: url(images/MD.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    margin-left: 180px;
+}
+
+.desc a{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.767);
+}
+
+.desc a:hover{
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.877);
+}
+
+.p1 a{
+    background-color: darkred;
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 850px;
+}
+.p1 a:hover{
+    color: lightgray;
+}
+
+.dt{
+font-family: 'Times New Roman', Times, serif;
+font-size: 14px;
+font-weight: lighter;
+margin-top: 20px;
+}
+
+.sht{
+font-size: 16px;
+color: rgba(0, 0, 0, 0.63);
+font-weight: lighter;
+margin-top: 30px;
+}
+
+
+.cont{
+    text-align: center;
+    margin-left: 450px;
+    margin-top: 20px;
+}
+
+.st2{
+    background-image: url(images/cbn.webp);
+    background-repeat: no-repeat;
+    background-size: 550px;
+    position: absolute;
+    width:30%;
+    height:650px;
+    margin-left: 180px;
+}
+.st3{
+    background-image: url(images/drink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width:400px;
+    height:250px;
+    margin-left: 180px;
+}
+.st4{
+    background-image: url(images/news.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width:400px;
+    height:250px;
+    margin-left: 180px;
+}
+.st5{
+    background-image: url(images/SD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width:400px;
+    height:270px;
+    margin-left: 180px;
+}
+.hd4{
+    margin-top: 85px;
+    border-top: 1px solid lightgray;
+}
+.mv1{
+    background-image: url(images/opec-oil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+
+}
+
+.mv2{
+    background-image: url(images/brewries.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+.mv3{
+    background-image: url(images/access-bank.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+.mv4{
+    background-image: url(images/wema.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+.mvsc{
+    display: flex;
+    justify-content:space-evenly;
+}
+.in a{
+    background-color: rgba(255, 0, 0, 0.685);
+    color: white;
+    font-family: tahoma;
+    font-size: 14px;
+    text-decoration: none;
+    top: 80%;
+    left: 5%;
+    transform: translate(0%, 40%);
+    position: absolute;;
+}
+.in a:hover{
+    color: lightgrey;
+}
+.se1{
+    background-image: url(images/schlum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+.se2{
+    background-image: url(images/CB.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+
+.se3{
+    background-image: url(images/MPR.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+.se4{
+    background-image: url(images/SD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 270px;
+    height: 170px;
+}
+
+section.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.movt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -10px;
+    margin-top: 1em;
+    color: rgba(0, 0, 0, 0.767);
+}
+.mvt{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.mvt1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    margin-left: -20px;
+}
+
+.mvt2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    /* margin-left: 20px; */
+}
+
+.mvt3{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.hgls{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+.hgh1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh6{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh7{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh8{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+.hgh9{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
+    background-color: lightgrey;
+    max-width: 19em;
+}
+
+.parent{
+    background-color: rgba(0, 0, 0, 0.932);
+    width: 1340px;
+    height: 80vh;
+    color: #f1faff;
+    margin-top: 40px;
+    text-align: center;
+    position: relative;
+}
+
+h2{
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+/* .over{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 70vh;
+    width: 400px;
+} */
+
+.card{
+    background-color: rgba(0, 0, 0, 0.685);
+    height: 70vh;
+    width: 400px;
+    position: absolute;
+    text-align: left;
+
+}
+
+.inn{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+.date{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.863);
+}
