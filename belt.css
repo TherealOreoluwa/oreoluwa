@@ -1,0 +1,273 @@
+body{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* .fsct{
+    background-image: url(images/comeb.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 1349px;
+    height: 150vh;
+} */
+
+.log{
+    background-image: url(images/greenbelthotellogo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 80px;
+    height: 40vh;
+    left: 2%;
+    margin-top: 15px;
+}
+
+nav{
+    background: none;
+    margin-top: -15px;
+    position: fixed;
+    width: 1348px;
+    margin-top: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#F1FAFF;
+    font-size: 15px;
+    margin-top: -20px;
+    font-family: tahoma;
+    font-weight:10px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+nav ul li{
+    display: inline;
+    margin-left: 55px;
+}    
+nav ul{
+    margin-left:660px;
+    margin-top: -220px;
+}
+.bs{
+    font-family: tahoma;
+    font-size: 15px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 110px;
+    color: #F1FAFF;
+}
+.wrd{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 85px;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 110px;
+    color: #F1FAFF;
+    font-weight: lighter;
+}
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 110px;
+    color: #F1FAFF;
+    background: none;
+    border: 1px solid #F1FAFF;
+    border-radius: 50px;
+    width: 200px;
+    height: 10vh;
+}
+
+.tptx{
+    margin-top: 150px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 50;
+}
+
+.tptxl{
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.849);
+    font-weight: 50;
+}
+
+button.rd{
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 590px;
+    border: 1px solid black;
+    width: 170px;
+}
+
+.dinbar{
+    margin-top: 300px;
+    display: flex;
+    background-color: rgb(249,247,245);
+}
+
+.dintxt{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.dintpt{
+    font-family: times;
+    font-size: 50px;
+}
+
+.dintbt{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 400px;
+    color: rgba(0, 0, 0, 0.774);
+    gap: 20px;
+}
+
+button.dinbt{
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 0px;
+    border: 1px solid black;
+    width: 170px;
+}
+
+.ach{
+    margin-top: 100px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.achtxt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+.achtxtb{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.num{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.815);
+}
+
+.nums{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numwrds{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.numwrd{
+    font-family: century;
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 150px;
+}
+.exb{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-left: 150px;
+}
+.rmgs{
+    /* display: flex; */
+    margin-left: 100px;
+    margin-top:50px;
+}
+
+
+.rmgstw1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 110px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+.rmgstw2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 510px;
+    margin-right: 0px;
+    margin-top: -27px;
+}
+.rmgstw3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 920px;
+    margin-right: 0px;
+    margin-top: -30px;
+}
+
+.cbg{
+    background-color: rgba(128, 128, 128, 0.226);
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+
+input.enteries{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px white;
+}
+
+textarea{
+    width: 400px;
+    height: 30px;
+    font-family: tahoma;
+    border: white;
+}
+
+.cbt{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.cbh{
+    font-family: tahoma;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.781);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button.sub{
+    background: #000;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 6%;
+    border-radius: 10%;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: -400px;
+}
+
+.cbgf{
+    margin-left: 100px;
+    margin-top: 150px;
+}
+iframe{
+    height: 750px;
+}
